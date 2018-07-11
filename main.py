@@ -1,7 +1,7 @@
 import datetime
 import module
-import yaml
 import time
+import yaml
 
 
 with open('config.yaml', 'r') as config:

@@ -1,7 +1,8 @@
-import yaml
 import datetime
-import time
+import yaml
 import module
+import time
+
 
 with open('config.yaml', 'r') as config:
     config_file = yaml.load(config)
@@ -26,5 +27,5 @@ def main():
 if __name__ == '__main__':
     while True:
         main()
-        iterator +=1
+        iterator += 1
         time.sleep(interval)

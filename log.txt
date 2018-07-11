@@ -14,3 +14,11 @@ Virtual memory statistics: sswap(total=12884897792, used=0, free=12884897792, pe
 Disk IO statistics       : sdiskio(read_count=182929, write_count=304492, read_bytes=3446620160, write_bytes=9275192320, read_time=2228592, write_time=2443307, read_merged_count=3445, write_merged_count=106168, busy_time=762175)%
 Network statistics       : {'eno1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=1000, mtu=1500), 'virbr1-nic': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10, mtu=1500), 'lo': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=65536), 'virbr0-nic': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10, mtu=1500), 'virbr0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500), 'virbr1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500)}%
 
+
+SNAPSHOT 2: 11.07.2018 17:48:48
+CPU load                 : 22.9%
+Memory statistics        : svmem(total=12299227136, available=7538692096, percent=38.7, used=3958960128, free=5513068544, active=4480241664, inactive=1761239040, buffers=226598912, cached=2600599552, shared=473923584, slab=328876032)%
+Virtual memory statistics: sswap(total=12884897792, used=0, free=12884897792, percent=0.0, sin=0, sout=0)%
+Disk IO statistics       : sdiskio(read_count=182929, write_count=304900, read_bytes=3446620160, write_bytes=9285006336, read_time=2228592, write_time=2443935, read_merged_count=3445, write_merged_count=106300, busy_time=762393)%
+Network statistics       : {'eno1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=1000, mtu=1500), 'virbr1-nic': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10, mtu=1500), 'lo': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=65536), 'virbr0-nic': snicstats(isup=False, duplex=<NicDuplex.NIC_DUPLEX_FULL: 2>, speed=10, mtu=1500), 'virbr0': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500), 'virbr1': snicstats(isup=True, duplex=<NicDuplex.NIC_DUPLEX_UNKNOWN: 0>, speed=0, mtu=1500)}%
+

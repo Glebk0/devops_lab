@@ -1,13 +1,21 @@
-import psutil
 import json
+import psutil
 
 
 def cpu_load():
+    """
+    get cpu_load information
+    :return:
+    """
     cpu_load_var = psutil.cpu_percent(interval=5, percpu=False)
     return cpu_load_var
 
 
 def virt_mem_status():
+    """
+    get virtual memory overall information
+    :return:
+    """
     virt_mem_var = psutil.virtual_memory()
     return virt_mem_var
 

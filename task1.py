@@ -8,4 +8,3 @@ def main():
         avg[name] = [float(i) for i in marks]
     marks = avg[input("Enter student name whose average mark is needed: ")]
     print("Average mark is", "%.2f" % (sum(marks) / len(marks)))
-

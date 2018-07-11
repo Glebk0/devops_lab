@@ -13,7 +13,8 @@ def create_dict(names, professions):
 
 def main():
     names = input("Enter names of employees separated by spaces: ").split()
-    professions = input("Enter list of professions separated by spaces: ").split()
+    professions = input(
+        "Enter list of professions separated by spaces: ").split()
     dictionary = create_dict(names, professions)
     print(dictionary)
 

@@ -21,7 +21,3 @@ def path_switch(path):
         print("Robot returned to starting point!")
     else:
         print("Robot is missing somewhere...")
-
-
-if __name__ == "__main__":
-    main()

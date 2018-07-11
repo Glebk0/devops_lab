@@ -17,7 +17,3 @@ def main():
         "Enter list of professions separated by spaces: ").split()
     dictionary = create_dict(names, professions)
     print(dictionary)
-
-
-if __name__ == "__main__":
-    main()

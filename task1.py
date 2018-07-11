@@ -9,6 +9,3 @@ def main():
     marks = avg[input("Enter student name whose average mark is needed: ")]
     print("Average mark is", "%.2f" % (sum(marks) / len(marks)))
 
-
-if __name__ == "__main__":
-    main()

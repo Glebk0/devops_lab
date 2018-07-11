@@ -10,7 +10,3 @@ def drawer(n, m):
     print("WELCOME".center(m, "-"))
     for i in range(n - 2, -1, -2):
         print((".|." * i).center(m, "-"))
-
-
-if __name__ == "__main__":
-    main()

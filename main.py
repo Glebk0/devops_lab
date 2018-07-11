@@ -13,7 +13,8 @@ iterator = 0
 
 
 def main():
-    time_format = datetime.datetime.fromtimestamp(time.time()).strftime('%d.%m.%Y %H:%M:%S')
+    time_format = datetime.datetime.fromtimestamp(time.time())\
+        .strftime('%d.%m.%Y %H:%M:%S')
 
     logging = open('log.txt', "a+")
     logging.write('\nSNAPSHOT {0}: {1}\n{2}\n'.format(

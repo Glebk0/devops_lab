@@ -17,8 +17,6 @@ class Monitor(object):
         self.io = psutil.disk_io_counters()
         self.net_stat = psutil.net_if_stats()
 
-
-
     def get_system_info(self):
         """dump system information gathered in file in json format or in text format
 

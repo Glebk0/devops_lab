@@ -7,7 +7,7 @@ def create_dict(names, professions):
             value = professions[i]
 
         dictionary[key] = value
-        i = i + 1
+        i += 1
     return dictionary
 
 

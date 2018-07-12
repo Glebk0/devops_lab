@@ -17,7 +17,7 @@ def path_switch(path):
         else:
             print("You wrote wrong path.")
             exit(0)
-    if path_int == 0:
+    if not path_int:
         print("Robot returned to starting point!")
     else:
         print("Robot is missing somewhere...")

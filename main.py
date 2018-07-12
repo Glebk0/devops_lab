@@ -17,6 +17,7 @@ def main():
 
     :return: returns log.txt with system information
     """
+    system_data = module.Monitor(data_format)
     time_format = datetime.datetime.fromtimestamp(time.time())\
         .strftime('%d.%m.%Y %H:%M:%S')
 
@@ -24,7 +25,7 @@ def main():
     logging.write('\nSNAPSHOT {0}: {1}\n{2}\n'.format(
         iterator,
         time_format,
-        module.get_system_info(data_format)))
+        system_data.get_system_info()))
 
     logging.close()
 

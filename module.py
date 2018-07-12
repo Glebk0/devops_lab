@@ -5,7 +5,7 @@ import psutil
 def cpu_load():
     """get cpu_load information
 
-    :return:
+    :return: cpu_load_var is variable that stores avg load percent over 5 min
     """
     cpu_load_var = psutil.cpu_percent(interval=5, percpu=False)
     return cpu_load_var
@@ -14,29 +14,46 @@ def cpu_load():
 def virt_mem_status():
     """get virtual memory overall information
 
-    :return:
+    :return:virt_mem_var is variable that stores vm information
     """
     virt_mem_var = psutil.virtual_memory()
     return virt_mem_var
 
 
 def swp_mem_status():
+    """get swap memory overall information
+
+    :return: swp_mem_var is variable that stores swap memory information
+    """
     swp_mem_var = psutil.swap_memory()
     return swp_mem_var
 
 
 def io():
+    """get disk io information
+
+    :return: io_count_var is variable that stores disk io information
+    """
     io_count_var = psutil.disk_io_counters()
     return io_count_var
 
 
 def net_stat():
+    """get network information
+
+    :return: net_stat_var is variable that stores network interfaces information
+    """
     net_stat_var = psutil.net_if_stats()
     return net_stat_var
 
 
 def get_system_info(data_format):
+    """get system information and dump it in json format or in text format
 
+    :param data_format: data_format is variable that stores format in which
+    data will be exported, it comes from config.yaml
+    :return: returns system data to be written in log file in needed format
+    """
     if data_format == 'json':
         data = dict()
         data['cpu_load'] = cpu_load()

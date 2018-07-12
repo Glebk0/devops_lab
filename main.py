@@ -13,6 +13,10 @@ iterator = 0
 
 
 def main():
+    """main function writes system information in log file
+
+    :return: returns log.txt with system information
+    """
     time_format = datetime.datetime.fromtimestamp(time.time())\
         .strftime('%d.%m.%Y %H:%M:%S')
 

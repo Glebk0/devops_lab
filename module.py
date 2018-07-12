@@ -41,7 +41,7 @@ def io():
 def net_stat():
     """get network information
 
-    :return: net_stat_var is variable that stores network interfaces information
+    :return: net_stat_var is variable that stores network interface information
     """
     net_stat_var = psutil.net_if_stats()
     return net_stat_var

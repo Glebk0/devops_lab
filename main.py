@@ -1,24 +1,19 @@
-import requests
-import argparse
-import json
 import module
-from argparse import ArgumentParser
-from getpass import getpass
-
-parser = ArgumentParser()
-parser.add_argument("-f", "--file", dest="filename",
-                    help="write report to FILE", metavar="FILE")
-parser.add_argument("-q", "--quiet",
-                    action="store_false", dest="verbose", default=True,
-                    help="don't print status messages to stdout")
-parser.add_argument("-n", action="module.glotka()")
-
-args = parser.parse_args()
 
 
-def showtop20():
-    print('running showtop20')
+def main():
+    conf, request = module.arguments()
+    if conf['s']:
+        module.stat_merged_closed(request)
+    if conf['o']:
+        module.pr_opened_by(request)
+    if conf['w']:
+        module.pr_opened_weekday(request)
+    if conf['d']:
+        module.pr_opened_date(request)
+    if conf['do']:
+        module.pr_opened_days(request)
 
-def listapps():
-    print('running listapps')
 
+if __name__ == '__main__':
+    main()

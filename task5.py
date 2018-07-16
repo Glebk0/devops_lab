@@ -16,7 +16,7 @@ def path_switch(path):
             path_int -= 1
         else:
             print("You wrote wrong path.")
-            exit(0)
+            exit(1)
     if not path_int:
         print("Robot returned to starting point!")
     else:

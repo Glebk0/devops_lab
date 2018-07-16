@@ -1,0 +1,17 @@
+'{''python_ver'': ''3.7.0'', ''python_name'': b''  system\n  2.7\n  3.5.0\n* 3.7.0
+  (set by /home/student/.pyenv/version)\n'', ''python_venv'': ''/home/student/hometaskp/devops_lab/venv'',
+  ''python_loc'': [b''/home/student/hometaskp/devops_lab/venv/bin/python'', b''/home/student/.pyenv/shims/python'',
+  b''/home/student/.pyenv/shims/python'', b''/usr/bin/python'', b''/bin/python''],
+  ''pip_loc'': [b''/home/student/hometaskp/devops_lab/venv/bin/pip'', b''/home/student/.pyenv/shims/pip'',
+  b''/home/student/.pyenv/shims/pip''], ''python_path'': '''', ''packages'': [b''autopep8==1.3.5'',
+  b''backcall==0.1.0'', b''certifi==2018.4.16'', b''chardet==3.0.4'', b''coverage==4.5.1'',
+  b''decorator==4.3.0'', b''docopt==0.6.2'', b''envoy==0.0.3'', b''flake8==3.5.0'',
+  b''github3.py==1.1.0'', b''idna==2.7'', b''ipdb==0.11'', b''ipython==6.4.0'', b''ipython-genutils==0.2.0'',
+  b''jedi==0.12.1'', b''mccabe==0.6.1'', b''ordereddict==1.1'', b''parso==0.3.1'',
+  b''pexpect==4.6.0'', b''pickleshare==0.7.4'', b''pr-stats==0.0.1'', b''prompt-toolkit==1.0.15'',
+  b''prstats==0.0.1'', b''psutil==5.4.6'', b''ptyprocess==0.6.0'', b''pyaml==17.12.1'',
+  b''pycodestyle==2.3.1'', b''pydocstyle==2.1.1'', b''pyflakes==1.6.0'', b''PyGithub==1.40'',
+  b''Pygments==2.2.0'', b''PyJWT==1.6.4'', b''python-dateutil==2.2'', b''PyYAML==3.13'',
+  b''requests==2.19.1'', b''simplegeneric==0.8.1'', b''six==1.11.0'', b''snowballstemmer==1.2.1'',
+  b''traitlets==4.3.2'', b''uritemplate==3.0.0'', b''urllib3==1.23'', b''wcwidth==0.1.7''],
+  ''site_packages_location'': ''/home/student/hometaskp/devops_lab/venv/lib/python3.7/site-packages''}'

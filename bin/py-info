@@ -1,11 +1,12 @@
+#!/usr/local/bin/python
 import argparse
-import module
+from bin import module
 
 
 def arguments():
     parser = argparse.ArgumentParser(
-        description='Get info about python installation in current system',
-        prog='py_versions')
+        description='Get info about python installation in current system.',
+        prog='py-info')
     parser.add_argument('--json', '-j', dest='j', action='store_true',
                         help='Export data to json.'),
     parser.add_argument('--yaml', '-y', dest='y', action='store_true',

@@ -1,3 +1,4 @@
+#!/usr/local/bin/python
 import argparse
 import calendar
 from datetime import datetime
@@ -18,9 +19,9 @@ def arguments():
     parser.add_argument('--version', '-v', action='version',
                         version='%(prog)s 1.0', help='Get information about '
                                                      'software version.')
-    parser.add_argument('--user', '-u', dest='u', required='true',
+    parser.add_argument('--user', '-u', dest='u', required=True,
                         help='User whose stats are gathered (required).')
-    parser.add_argument('--repo', '-r', dest='r', required='true',
+    parser.add_argument('--repo', '-r', dest='r', required=True,
                         help='Repository to work with (required).')
     parser.add_argument('--opened', '-o', dest='o', action='store_true',
                         help='User who opened pull request.')

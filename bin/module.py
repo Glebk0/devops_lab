@@ -1,11 +1,11 @@
 #!/usr/local/bin/python
-from subprocess import check_output
 import distutils.sysconfig
 import json
 import os
 import platform
 import pyaml
 import subprocess
+from subprocess import check_output
 import sys
 
 

@@ -1,5 +1,5 @@
-import unittest
 import task2_3
+import unittest
 
 
 class TestFactorial(unittest.TestCase):

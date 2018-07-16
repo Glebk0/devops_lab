@@ -1,12 +1,12 @@
 #!/usr/local/bin/python
-import os
+from subprocess import check_output
 import distutils.sysconfig
 import json
-import sys
+import os
 import platform
 import pyaml
-from subprocess import check_output
 import subprocess
+import sys
 
 
 def get_data():
@@ -36,9 +36,6 @@ def form_data(spec):
         return json.dumps(get_data())
     elif spec == 'yaml':
         return pyaml.dump(get_data())
-
-def py_names():
-    a
 
 
 def py_location():
